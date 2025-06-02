@@ -1,0 +1,8 @@
+n=int(input())
+sn=n*n
+rn=str(n)[::-1]
+rn1=int(rn)
+srn=rn1*rn1
+rsrn=str(srn)[::-1]
+rsrn1=int(rsrn)
+print(rsrn1==sn)
