@@ -1,0 +1,10 @@
+a=input()
+l='aeiou'
+u='AEIOU'
+b=all(vowels in a for vowels in l)
+c=all(vowels in a for vowels in u)
+if b or c:
+    print("True")
+else:
+    print("False")
+    
