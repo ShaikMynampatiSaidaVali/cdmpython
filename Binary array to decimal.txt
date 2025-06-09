@@ -1,0 +1,8 @@
+n=int(input())
+l=list(map(int,input().split()))
+su=l[::-1]
+s=p=0
+for i in range(len(su)):
+    s+=su[i]*(2**p)
+    p=p+1
+print(s)
